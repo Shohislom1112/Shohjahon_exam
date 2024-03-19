@@ -10,7 +10,7 @@ const Login = ({ setUser, User }: any) => {
   };
   return (
     <div className="bg-white h-svh">
-      <div className="w-[340px]mx-auto px-[4px] 2xl:w-[600px] m-auto pt-[60px] text-center pb-[50px]">
+      <div className="w-[600px] m-auto pt-[60px] text-center pb-[50px]">
         <img src="login.gif" className="mx-auto w-[300px]" />
         <p className="text-center text-[24px] font-bold pb-[30px]">Login</p>
         <div className="grid grid-flow-col justify-stretch space-x-4 pb-[50px]">
@@ -31,7 +31,7 @@ const Login = ({ setUser, User }: any) => {
         <NavLink to={Change ? "/all" : "/"}>
           <button
             onClick={handleSubmit}
-            className="w-[340px] max-auto 2xl:w-full bg-blue-600 text-white rounded-md py-[10px]"
+            className="w-[600px] bg-blue-600 text-white rounded-md py-[10px]"
           >
             Login
           </button>
